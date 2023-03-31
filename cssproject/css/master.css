@@ -1,0 +1,225 @@
+
+div{
+    display: block;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 80px;
+ display: inline-block;
+}
+.nav{
+    display: inline-block;
+    
+}
+.Product{
+    padding: 0px 14px;
+   color:gray;
+    display: inline-block;
+}
+.industries{
+    padding: 0px 14px;
+    color:gray;
+     display: inline-block;
+ }
+.Templates{
+    padding: 0px 14px;
+    color:gray;
+     display: inline-block;
+}
+.Pricing{
+    padding: 0px 14px;
+    color:gray;
+     display: inline-block;
+}
+.reviews{
+    padding: 0px 14px;
+    color:gray;
+     display: inline-block;
+}
+.login{
+    display: flex;
+    background-color:rgb(240, 229, 229);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 15px;
+    border-radius: 40px;
+    align-items: end;
+}
+.start{
+    display: flex;
+    background-color:rgb(10, 194, 10);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    border-radius: 40px;
+    align-items: end;
+}
+.end{
+    margin: 0px 155px;
+    display: inline-block;
+}
+.space{
+    height: 50px;
+}
+.center{
+    margin: 20px 0px 10px;
+    min-height: 100%;
+    color: #003c2f;
+  text-align: center;
+  font-size: 40px;
+   font-family: sans-serif;
+   line-height: 150%;
+    font-weight: 500;
+}
+.toggle{
+    display: flex;
+    align-items: center;
+}
+.toggleout{
+    margin-top: auto;
+    position: relative;
+    display: flex;
+    width: 322px;
+    height: 64px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 25px 6px 36px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #f0f5f0;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+.togglein{
+    margin: auto;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-align:start ;
+    position: absolute;
+    left: 140px;
+    top: auto;
+    bottom: 12px;
+    width: 230px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #003c2f;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+.togglein2{
+    margin: auto;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(3, 186, 18);
+    text-align:center ;
+    position:relative;
+    left: 140px;
+    top: auto;
+    bottom: 12px;
+    width: 230px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.pricerow{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 25px;
+}
+
+.pricecolm{
+    background: #f0f5f0;
+    padding: 10% 15%;
+    border-radius: 25px;
+    color:black;
+    text-align: center;
+
+}
+.pricecolm h2{
+    color: #003c2f;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+}
+.pricecolm p{
+    font-size: 44px;
+    
+}
+.pricecolm h3{
+    color:  #003c2f;
+    font-style: bold;
+    font-family:sans-serif ;
+    font-size: 44px;
+    margin: 20px 0px 40px;
+    font-weight: 500;
+}
+.pricecolm span{
+    font-size: 16px;
+    color: rgb(73, 72, 72);
+}
+.pricecolm hr{
+    margin: 10px;
+}
+.pricecolm li{
+    margin: 5px;
+    
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022"; 
+    color: rgb(19, 224, 0);
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+  }
+  .pricecolm ul{
+    text-align: left;
+  }
+  .B2{
+    padding: 17px;
+    width: 180px;
+    background-color:rgb(10, 194, 10);
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 0px;
+    border-radius: 40px;
+  }
